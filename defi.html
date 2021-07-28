@@ -1,15 +1,20 @@
-<!DOCTYPE html>
+<! DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/25d75193a7.js" crossorigin="anonymous"></script>
+    <title>Mon petit graphisme</title>
     </head>
+
 <body>
-	<div id="bloc_page">
+	<div class="container">
 		<header>
-			<div id="Titre principal">
-				<div id="logo">
+			<div class="navbar">
+				<div class="logo">
 					<img src="images/logo_long.png" alt="Logo de l'entreprise" />
+                </div>
 					
                     <nav>
 				<ul>
@@ -17,73 +22,101 @@
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
+            </div>
+
 		</header>
-        <div id="banniere_image"></div>
-        <div id="logo">
+        <div class="hero">
+        <div class="logo-sm">
             <img src="images/logo_long.png" alt="Logo de l'entreprise" />
-            <div id="banniere_description">
+        </div>
+        <div class="title">
 				<h1>Agence de graphisme</h1>
             </div>
         </div>
+
         <section>
-			<article>
-                <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</p>
-            </article>
-            <div id="logo">
+
+            <div class="intro">
+                <h3>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</h3>
+            </div>             
+
+            <div class="strategy">
+            <div class="card">
+            <div class="logoicon">
                 <img src="images/graphic-design.png" alt="Logo de graphisme" />
             </div>
 
             <h2>Graphisme</h2>
             <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
+            </div>
 
-            <div id="logo">
+            <div class="card">
+                <div class="logoicon">
                 <img src="images/strategie.png" alt="Logo de strategie" />
             </div>
 
             <h2>Stratégie</h2>
             <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
-
-            <div id="logo">
+            </div>
+            
+            <div class="card">
+                <div class="logoicon">
                 <img src="images/illustrations.png" alt="Logo de illustrations" />
             </div>
 
             <h2>Illustrations</h2>
             <p>Nos graphistes vous proposerons des illustrations 100% originales.</p>
+            </div>
+            </div>
 
-            <p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complètement la carte de mon restaurant."</p>
+            <h3>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complètement la carte de mon restaurant."</h3>
 
             <p>Amandine, restauratrice</p>
         </section>
 
-        <div> 
+        
+        <footer>
+
+            <div class="footer-text"> 
             <p>Mon petit graphisme - Agence de graphisme basée a Paris</p>
         </div>
+        <div class="social-icons">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+          </div>
 
-        <div>
-        <p><img src="images/twitter.jpg" alt="Twitter" /><img src="images/facebook.png" alt="Facebook" /><img src="images/instagram.png" alt="Instagram" /></p>
-        </div>
+        
+        
 
-        <footer>
-            <div id="accès_rapide">
-                <h2>Accès rapide</h2>
-                <div id="listes_rapide">
+          <div class="mainfooter">
+            <div class="left-footer">
+              <p>Accès rapide</p>
+              <div class="listes_rapide">
                     <ul>
                         <li><a href="#">Accueil</a></li>
                         <li><a href="#">Contact</a></li>
                         </ul>
                         </div>
+            </div>
 
-                        <div id="a_propos">
-                            <h2>A propos</h2>
-                            <div id="listes_propos">
+            <div class="middle-footer">
+                <p>A propos</p>
+                <div class="listes_propos">
                                 <ul>
                                     <li><a href="#">Données personnelles</a></li>
                                     <li><a href="#">Mentions légales</a></li>
                                     <li><a href="#">Cookies</a></li>
                                     </ul>
                                     </div>
-                                    <div id="Coordonnées">
-                                        <h2>Coordonnées</h2>
+            </div>
+
+                                    <div class="right-footer">
+                                        <p>Coordonnées</p>
                                         <p>10 quai de la charente</p>
                                         <p>75019 PARIS</p>
                                         <p>01 23 45 67 89</p>
